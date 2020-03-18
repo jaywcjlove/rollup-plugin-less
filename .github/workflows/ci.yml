@@ -1,4 +1,4 @@
-name: GitHub Actions Deploy hotkeys-js
+name: GitHub Actions Test
 on:
   push:
     branches:
