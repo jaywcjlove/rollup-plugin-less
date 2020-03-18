@@ -16,14 +16,24 @@ import './test.less';
 
 ```js
 import { rollup } from 'rollup';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 import less from '@wcj/rollup-plugin-less';
 
 rollup({
-  entry: 'main.js',
+  input: 'src/main.js',
+  output: [
+    { name: 'Test', file: 'dist/test.cjs.js', format: 'cjs' },
+    { name: 'Test', file: 'dist/test.esm.js', format: 'esm' },
+    { name: 'Test', file: 'dist/test.js', format: 'umd' },
+    { name: 'Test', file: 'dist/test.min.js', format: 'umd' },
+  ],
   plugins: [
     less({
-
-    })
+      // PluginLessOptions: options....
+    }),
+    resolve(),
+    commonjs(),
   ],
 });
 ```
