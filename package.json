@@ -1,0 +1,52 @@
+{
+  "name": "@wcj/rollup-plugin-less",
+  "version": "1.0.0",
+  "description": "A rollup plugin for less files.",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "watch": "npm run watch:ts",
+    "watch:ts": "tsbb watch & npm run build:types -- --watch",
+    "build": "npm run build:ts && npm run build:types",
+    "build:ts": "tsbb build",
+    "build:types": "tsbb types",
+    "test": "tsbb test",
+    "coverage": "tsbb test --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/rollup-plugin-less"
+  },
+  "jest": {},
+  "keywords": [
+    "rollup",
+    "plugin",
+    "npm",
+    "modules",
+    "less",
+    "rollup-plugin",
+    "style"
+  ],
+  "files": [
+    "lib",
+    "src"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "rollup": "^1.20.0||^2.0.0"
+  },
+  "devDependencies": {
+    "@types/estree": "0.0.42",
+    "@types/fs-extra": "^8.1.0",
+    "@types/jest": "^25.1.4",
+    "@types/less": "^3.0.1",
+    "rollup": "^2.1.0",
+    "tsbb": "1.5.2"
+  },
+  "author": "Kenny Wong <wowohoo@qq.com>",
+  "dependencies": {
+    "@rollup/pluginutils": "^3.0.8",
+    "fs-extra": "^8.1.0",
+    "less": "^3.11.1"
+  }
+}

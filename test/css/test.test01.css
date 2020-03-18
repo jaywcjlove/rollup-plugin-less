@@ -1,0 +1,9 @@
+.hidden {
+  display: none !important;
+}
+.content .header {
+  font-size: 12px;
+}
+.content .body {
+  color: #333;
+}
