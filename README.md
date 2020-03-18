@@ -1,6 +1,8 @@
 Rollup Plugin Less
 ---
 
+A rollup plugin for less files.
+
 ## Install
 
 ```node
