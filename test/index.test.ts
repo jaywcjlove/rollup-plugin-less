@@ -1,7 +1,7 @@
 import * as rollup from 'rollup';
 import fs from 'fs-extra';
 import path from 'path';
-import less from '../';
+import less from '../src';
 
 const toBeText1 = `body .wrap {
   color: #fff;
