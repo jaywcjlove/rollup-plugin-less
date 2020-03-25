@@ -46,7 +46,7 @@
   "author": "Kenny Wong <wowohoo@qq.com>",
   "dependencies": {
     "@rollup/pluginutils": "^3.0.8",
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.0",
     "less": "^3.11.1"
   }
 }
