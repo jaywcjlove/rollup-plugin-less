@@ -37,10 +37,10 @@
   },
   "devDependencies": {
     "@types/estree": "0.0.42",
-    "@types/fs-extra": "^8.1.0",
-    "@types/jest": "^25.1.4",
-    "@types/less": "^3.0.1",
-    "rollup": "^2.1.0",
+    "@types/fs-extra": "8.1.0",
+    "@types/jest": "25.1.4",
+    "@types/less": "3.0.1",
+    "rollup": "2.2.0",
     "tsbb": "1.5.2"
   },
   "author": "Kenny Wong <wowohoo@qq.com>",
