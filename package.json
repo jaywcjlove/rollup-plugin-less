@@ -35,6 +35,15 @@
   "peerDependencies": {
     "rollup": "^1.20.0||^2.0.0"
   },
+  "author": "Kenny Wong <wowohoo@qq.com>",
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^3.0.8",
+    "fs-extra": "^9.0.0",
+    "less": "^3.11.1"
+  },
   "devDependencies": {
     "@types/estree": "0.0.42",
     "@types/fs-extra": "8.1.0",
@@ -42,11 +51,5 @@
     "@types/less": "3.0.1",
     "rollup": "2.2.0",
     "tsbb": "1.6.2"
-  },
-  "author": "Kenny Wong <wowohoo@qq.com>",
-  "dependencies": {
-    "@rollup/pluginutils": "^3.0.8",
-    "fs-extra": "^9.0.0",
-    "less": "^3.11.1"
   }
 }
