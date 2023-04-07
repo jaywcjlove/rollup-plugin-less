@@ -38,7 +38,7 @@
   },
   "author": "Kenny Wong <wowohoo@qq.com>",
   "engines": {
-    "node": ">=10"
+    "node": ">=16.0.0"
   },
   "dependencies": {
     "@rollup/pluginutils": "^5.0.2",
