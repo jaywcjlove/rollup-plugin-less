@@ -20,7 +20,7 @@ jobs:
       - run: npm run coverage
 
       - run: npm install idoc@1.25.0 -g
-      - run: idoc -s "TypeNexus {{version}}"
+      - run: idoc -s "Rollup Plugin Less {{version}}"
 
       - name: Is a tag created auto?
         id: create_tag
