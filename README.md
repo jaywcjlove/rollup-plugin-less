@@ -1,7 +1,9 @@
 Rollup Plugin Less
----
+===
 
-[![](https://img.shields.io/github/issues/jaywcjlove/rollup-plugin-less.svg)](https://github.com/jaywcjlove/rollup-plugin-less/issues) [![](https://img.shields.io/github/forks/jaywcjlove/rollup-plugin-less.svg)](https://github.com/jaywcjlove/rollup-plugin-less/network) [![](https://img.shields.io/github/stars/jaywcjlove/rollup-plugin-less.svg)](https://github.com/jaywcjlove/rollup-plugin-less/stargazers) [![](https://img.shields.io/github/release/jaywcjlove/rollup-plugin-less.svg)](https://github.com/jaywcjlove/rollup-plugin-less/releases) [![Build Status](https://www.travis-ci.org/jaywcjlove/rollup-plugin-less.svg?branch=master)](https://www.travis-ci.org/jaywcjlove/rollup-plugin-less)
+[![](https://img.shields.io/github/stars/jaywcjlove/rollup-plugin-less.svg)](https://github.com/jaywcjlove/rollup-plugin-less/stargazers)
+[![](https://img.shields.io/github/release/jaywcjlove/rollup-plugin-less.svg)](https://github.com/jaywcjlove/rollup-plugin-less/releases)
+[![GitHub Actions Test](https://github.com/jaywcjlove/rollup-plugin-less/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/rollup-plugin-less/actions/workflows/ci.yml)
 
 A rollup plugin for [less](http://lesscss.org/) files.
 
