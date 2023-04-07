@@ -5,11 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "prepare": "npm run build",
-    "watch": "npm run watch:ts",
-    "watch:ts": "tsbb watch & npm run build:types -- --watch",
-    "build": "npm run build:ts && npm run build:types",
-    "build:ts": "tsbb build",
-    "build:types": "tsbb types",
+    "watch": "tsbb watch",
+    "build": "tsbb build",
     "test": "tsbb test",
     "coverage": "tsbb test --coverage"
   },
@@ -50,6 +47,6 @@
     "@types/jest": "25.2.1",
     "@types/less": "3.0.1",
     "rollup": "2.7.1",
-    "tsbb": "1.6.2"
+    "tsbb": "^4.1.4"
   }
 }

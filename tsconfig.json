@@ -7,7 +7,7 @@
     "noImplicitAny": true,
     "resolveJsonModule": true,
     "moduleResolution": "node",
-    "sourceMap": true,
+    "skipLibCheck": true,
     "outDir": "lib",
     "baseUrl": ".",
     "paths": {
