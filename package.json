@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "rollup": "^2.0.0||^3.0.0"
+    "rollup": "^2.0.0||^3.0.0 || ^4.0.0"
   },
   "author": "Kenny Wong <wowohoo@qq.com>",
   "engines": {
@@ -49,7 +49,7 @@
     "@types/estree": "^1.0.0",
     "@types/fs-extra": "^11.0.1",
     "@types/less": "^3.0.3",
-    "rollup": "^3.20.2",
+    "rollup": "^4.0.0",
     "tsbb": "^4.1.4"
   }
 }
